@@ -1,0 +1,11 @@
+﻿<Window x:Class="Laboratorio03B_ADO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menú Principal - Laboratorio03B" Height="300" Width="400">
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Button Content="Estudiantes (DataTable)" Margin="5" Padding="10" Click="btnStudentsDataTable_Click"/>
+        <Button Content="Estudiantes (DataReader + Búsqueda)" Margin="5" Padding="10" Click="btnStudentsDataReader_Click"/>
+        <Button Content="Productos (DataTable)" Margin="5" Padding="10" Click="btnProductsDataTable_Click"/>
+        <Button Content="Productos (DataReader + Búsqueda)" Margin="5" Padding="10" Click="btnProductsDataReader_Click"/>
+    </StackPanel>
+</Window>
